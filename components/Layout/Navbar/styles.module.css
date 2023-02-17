@@ -1,0 +1,19 @@
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+
+}
+.navBg{
+    background-color:  #001928;
+    position: fixed;
+    width: 100vw;
+    z-index: 20;
+}
+.navigationLinks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+}

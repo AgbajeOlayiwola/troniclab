@@ -1,0 +1,8 @@
+.layoutCover{
+    display: flex;
+    justify-content: center;
+ }
+ .layoutInner{
+     max-width: 1400px;
+     width: 80%;
+ }
