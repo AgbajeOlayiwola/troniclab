@@ -1,0 +1,90 @@
+
+.contactBg{
+    background: #000;
+    color: white;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.contactInfo{
+    background-color:  #426cb4 ;
+    padding: 30px 20px;
+    border-radius: 12px;
+}
+.contactInfo div p{
+ display: flex;
+ align-items: center;
+ margin-right: 40px;
+}
+.contactInfo div{
+    margin-bottom: 30px;
+}
+.lagos{
+    color: #ed8f2b;
+    background: rgba(237,143,43,.16);
+    border-radius: 5px;
+    margin-top: 10%;
+    padding: 1%;
+    padding-left: 30px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.contactButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: fit-content;
+    color: #004799;
+    padding: 20px 10px;
+    cursor: pointer;
+    margin-top: 40px;
+    border-radius: 12px;
+}
+.inputFormms{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.inputFormms input{
+    margin-bottom: 20px;
+    background: #fff;
+    border: 1px solid #e8e8e8;
+    border-radius: 12px;
+    padding: 18px 12px;
+    background: none;
+    width: 100%;
+    color: black;
+    
+
+}
+.inputFormms textarea{
+    margin-bottom: 20px;
+    background: #fff;
+    border: 1px solid #e8e8e8;
+    border-radius: 12px;
+    padding: 18px 12px;
+    width: 100%;
+    color: black;
+}
+.submit{
+    padding: 18px 12px;
+    font-size: 18px;
+    background: #004799;
+    border-radius: 6px;
+    background-color: #004799;
+    border: none;
+}
+.sub{
+    color: #004799 !important;
+    text-align: center;
+}
+.closeModal{
+    display: flex;
+    justify-content: flex-end;
+}

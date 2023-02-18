@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react'
 import Cover from '../../components/Cover'
 import styles from './styles.module.css'
 import Slider from 'react-slick'
+import ContactModal from '../../components/Contactmodal'
 
 const AboutUs = () => {
   const [width, setWidth] = useState(0)
@@ -229,6 +230,7 @@ const AboutUs = () => {
           </div>
         </Cover>
       </div>
+      <ContactModal />
     </div>
   )
 }

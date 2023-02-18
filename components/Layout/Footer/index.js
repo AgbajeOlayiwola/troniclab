@@ -13,6 +13,31 @@ const Footer = () => {
         <div className={styles.footerContent}>
           <div>
             <Image src="/Assets/troniclab_Logo.png" width={320} height={120} />
+            <div>
+              <p>troniclab 3d printing</p>
+            </div>
+          </div>
+
+          <div>
+            <h1>Company</h1>
+            <div className={styles.company}>
+              <Link href="#Contact">Contact us</Link>
+              <Link href="#Contact">About Us</Link>
+              <Link href="#Contact">Privacy Policy</Link>
+            </div>
+          </div>
+          <div>
+            <h1>Support</h1>
+            <div className={styles.support}>
+              <Link href="#Contact">Get Help</Link>
+              <Link href="#Contact">How It Works</Link>
+              <Link href="#Contact">Contact Us</Link>
+            </div>
+            <p></p>
+          </div>
+          <div>
+            <h1>Stay up to date</h1>
+            {/* <div className={styles.subscribe}> */}
             <div className={styles.socials}>
               <Link href="https://instagram.com/tronic_lab?igshid=YmMyMTA2M2Y=">
                 <FaInstagram />
@@ -24,25 +49,13 @@ const Footer = () => {
                 <FaTwitter />
               </Link>
             </div>
-          </div>
-          <div>
-            <h1>Company</h1>
-            <Link href="#Contact">Contact us</Link>
-          </div>
-          <div>
-            <h1>Support</h1>
-            <p>Send a message</p>
-          </div>
-          <div>
-            <h1>Stay up to date</h1>
-            <div className={styles.subscribe}>
-              <input
+            {/* <input
                 type="text"
                 placeholder="your email address"
                 className={styles.input}
               />
-              <FiSend className={styles.sendBtn} />
-            </div>
+              <FiSend className={styles.sendBtn} /> */}
+            {/* </div> */}
           </div>
         </div>
       </Cover>

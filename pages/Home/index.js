@@ -218,7 +218,7 @@ const HomePage = () => {
             fillRule="evenodd"
             clipRule="evenodd"
             d="M1460 346H0.00439453C172.939 134.791 435.729 0 730 0C1024.27 0 1287.06 134.791 1460 346Z"
-            fill="#001928"
+            fill="#000"
           ></path>
         </svg>
       </div>

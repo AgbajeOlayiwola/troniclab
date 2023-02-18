@@ -1,10 +1,19 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import React from 'react'
+import { useRouter } from 'next/router'
+import React, { useEffect, useState } from 'react'
 import Cover from '../../Cover'
 import styles from './styles.module.css'
 
 const Navbar = () => {
+  const router = useRouter()
+  const [route, setRoute] = useState('')
+
+  useEffect(() => {
+    setRoute(router.query.index)
+    console.log(route)
+  }, [route])
+
   return (
     <div className={styles.navBg}>
       <Cover>

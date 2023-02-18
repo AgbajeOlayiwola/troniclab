@@ -13,7 +13,7 @@
     font-size: 30px;
     display: flex;
     justify-content: space-between;
-    padding-left: 30px;
+    /* padding-left: 30px; */
     padding-top: 10px;
 }
 .input{
@@ -29,6 +29,19 @@
 }
 .sendBtn{
     margin-left: -30px;
+}
+.support{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+}
+.company{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+
 }
 @media screen and (max-width: 611px) {
     .footerContent{
