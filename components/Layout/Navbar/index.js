@@ -18,7 +18,7 @@ const Navbar = () => {
     <div className={styles.navBg}>
       <Cover>
         <div className={styles.navigation}>
-          <div>
+          <div className={styles.logo}>
             <Link href="/">
               <Image
                 src="/Assets/troniclab_Logo.png"
