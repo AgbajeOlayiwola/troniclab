@@ -75,11 +75,23 @@
 .submit{
     padding: 18px 12px;
     font-size: 18px;
-    background: #004799;
+    background:  #426cb4;
     border-radius: 6px;
-    background-color: #004799;
     border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
+.submit:hover{
+    padding: 18px 12px;
+    transition: all 0.3s ease-in-out;
+    font-size: 18px;
+    background:  #004799;
+    border-radius: 6px;
+    font-size: 21px;
+    border: none;
+    cursor: pointer;
+}
+/* #004799 */
 .sub{
     color: #004799 !important;
     text-align: center;

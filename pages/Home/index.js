@@ -12,6 +12,7 @@ import { BsPhone } from 'react-icons/bs'
 import { AiOutlineMail } from 'react-icons/ai'
 import { GoLocation } from 'react-icons/go'
 import Modal from 'react-modal'
+import ContactModal from '../../components/Contactmodal'
 
 const customStyles = {
   content: {
@@ -306,7 +307,8 @@ const HomePage = () => {
           </div>
         </Cover>
       </div>
-      <div className={styles.contactBg} id="Contact">
+      <ContactModal />
+      {/* <div className={styles.contactBg} id="Contact">
         <Cover>
           <div className={styles.contact}>
             <div>
@@ -413,7 +415,7 @@ const HomePage = () => {
             </form>
           </Modal>
         </Cover>
-      </div>
+      </div> */}
     </>
   )
 }

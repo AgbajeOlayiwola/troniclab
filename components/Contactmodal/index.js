@@ -91,7 +91,7 @@ const ContactModal = () => {
       }
     })
   }
-
+  console.log(submitted)
   function openModal() {
     setIsOpen(true)
   }
