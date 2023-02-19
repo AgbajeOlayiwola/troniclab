@@ -92,7 +92,7 @@ const Navbar = () => {
                 />
               </Link>
             </div>
-            {width >= 600 ? (
+            {width >= 750 ? (
               <div className={styles.navigationLinks}>
                 <div>
                   <Link href=" https://troniclab.com/Shop/" target="_blank">
