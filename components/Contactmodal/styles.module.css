@@ -100,3 +100,19 @@
     display: flex;
     justify-content: flex-end;
 }
+@media screen and (max-width: 611px) {
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.moreInfo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    flex-direction: column;
+} 
+}

@@ -20,3 +20,21 @@
 .logo{
     cursor: pointer;
 }
+@media screen and (max-width: 611px) {
+  
+    .navigationLinks{
+        display: flex !important;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: space-between;
+        align-items: self-start;
+        width: 60%;
+    }
+    .heroSection{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        color: #004799;
+        width: 100%;
+    }
+}

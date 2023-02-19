@@ -75,3 +75,87 @@ width: 45%;
             align-items: center;
             justify-content: center;
         }
+        @media screen and (max-width: 611px) {
+            .aboutUs{
+                padding-top: 10%;
+                padding-bottom: 10%;
+            }
+            .transforming{
+                font-size: 30px;
+            }
+            .mission{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 60px;
+                margin-bottom: 40px;
+            }
+            .mission div:nth-child(1){
+                width: 100%;
+            }
+            .mission div:nth-child(2){
+                width: 100%;
+            }
+            .problem div:nth-child(1){
+            width: 45%;
+            }
+            .problem div:nth-child(2){
+                width: 100%;
+                }
+            .ourMission{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                font-size: 30px;
+            }
+            .problemsBg{
+                padding-top: 8.75em;
+                background-color: #1a1a1a;
+                color: #fff;
+            }
+            .problem{
+                display: flex;
+                flex-direction: column ;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .missionP{
+                font-size: 1.125em;
+                line-height: 1.3em;
+                font-weight: 300;
+            }
+            .problemH1{
+                font-size: 20px;
+            }
+            .problemp{
+                font-size: 18px;
+                font-weight: 500;
+            }
+            .solution{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 60px;
+                margin-bottom: 60px;
+            }
+            .solution div:nth-child(1){
+                width: 100%;
+                }
+            .solution div:nth-child(2){
+                    width: 100%;
+            }
+            .clients{
+                        padding-top: 1.75em;
+                        background-color: #1a1a1a;
+                        color: #fff;
+                    }
+                    .sildeone{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                    }
+
+        }
