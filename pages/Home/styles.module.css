@@ -284,4 +284,11 @@
      color:  #004799 ;
      width: 100%;
     }
+    .heroCopy{
+        font-size: 18px;
+        line-height: 26px;
+        color: #666666;
+        font-weight: 100;
+        width: 100%;
+    }
 }
