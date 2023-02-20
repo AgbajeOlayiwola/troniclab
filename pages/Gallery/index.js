@@ -2,6 +2,7 @@ import React from 'react'
 import ReactImageGallery from 'react-image-gallery'
 import styles from './styles.module.css'
 import Gallery from 'react-photo-gallery'
+import Cover from '../../components/Cover'
 const GalleryT = () => {
   const photos = [
     {
@@ -110,7 +111,9 @@ const GalleryT = () => {
   return (
     <div className={styles.gallery}>
       {' '}
-      <Gallery photos={photos} />
+      <Cover>
+        <Gallery photos={photos} />
+      </Cover>
     </div>
   )
 }
