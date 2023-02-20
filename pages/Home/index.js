@@ -225,6 +225,31 @@ const HomePage = () => {
       </div>
       <div className={styles.clientbg}>
         <Cover>
+          <div className={styles.flex}>
+            <div>
+              <p>8,000+</p>
+              <p>3D Printed Parts</p>
+            </div>
+
+            <div>
+              <p>20+</p>
+              <p>Professional Materials</p>
+            </div>
+
+            <div>
+              <p>8+</p>
+              <p>Rapid Prototyping Technologies</p>
+            </div>
+
+            <div>
+              <p>200+</p>
+              <p>States Shipped</p>
+            </div>
+          </div>
+        </Cover>
+      </div>
+      <div className={styles.clientbg}>
+        <Cover>
           <div className={styles.clients}>
             <h1>Trusted Clients</h1>
           </div>
