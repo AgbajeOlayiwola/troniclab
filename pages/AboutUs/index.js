@@ -147,7 +147,7 @@ const AboutUs = () => {
         </div>
       </Cover>
       <div className={styles.clients}>
-        <Cover>
+        {/* <Cover>
           <div className={styles.clients}>
             <h1>Trusted Clients</h1>
           </div>
@@ -228,7 +228,7 @@ const AboutUs = () => {
               </div>
             </Slider>
           </div>
-        </Cover>
+        </Cover> */}
       </div>
       <ContactModal />
     </div>
